@@ -1,0 +1,41 @@
+{
+  "name": "ax-next",
+  "version": "1.0.0",
+  "description": "AxiosService utility class for simplified Axios HTTP requests with caching, token management, and error handling.",
+  "main": "src/AxiosService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebetap/ax-next.git"
+  },
+  "keywords": [
+    "axios",
+    "http",
+    "request",
+    "utility",
+    "service",
+    "nodejs"
+  ],
+  "author": "Beta Priyoko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebetap/ax-next/issues"
+  },
+  "homepage": "https://github.com/ebetap/ax-next#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "node-cache": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
